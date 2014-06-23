@@ -1,0 +1,24 @@
+<ModuleDefinition
+	
+ModuleId="StartingAreaold"
+
+	VersionId="1"
+	
+Description="Feeding fish in a post-apocalyptic world (wouldn't that be cool?!)"
+Dependencies="ToyAssets,AppCore"
+	
+ScriptFile="main.cs"
+	
+CreateFunction="create"
+	
+DestroyFunction="destroy">
+	
+<DeclaredAssets
+ 
+           Path="assets"
+
+            Extension="asset.taml"
+ 
+           Recurse="true"/>
+		
+</ModuleDefinition>

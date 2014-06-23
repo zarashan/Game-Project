@@ -1,0 +1,15 @@
+<ModuleDefinition
+	ModuleId="StartingArea"
+	VersionId="1"
+	Description="testing on how to run"
+	Dependencies="AppCore=1"
+	ScriptFile="main.cs"
+	Group="gameStartGroup"
+	CreateFunction="create"
+	DestroyFunction="destroy">
+	<DeclaredAssets
+            Path="assets"
+            Extension="asset.taml"
+            Recurse="true"/>
+</ModuleDefinition>
+
