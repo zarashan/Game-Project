@@ -1,4 +1,4 @@
-//-------------------------- 6/23/2014 -- 09:41:37 -----
+//-------------------------- 6/24/2014 -- 08:43:03 -----
 Console trace is off.
 --------------------------------------------------------------------------------
 Video Initialization:
@@ -41,6 +41,7 @@ Max Texture Size reported as: 16384
 OpenAL Driver Init
 OpenAL Driver Init Success
 @@@ Console::create function called
+it Worked
 @@@ Console::destroy function called
 modules/StartingArea/1/scripts/shooterControls.cs (61): Unknown command disableUpdateCallback.
   Object (1173) createScript -> Sprite -> SpriteBase -> SceneObject -> BehaviorComponent -> DynamicConsoleMethodComponent -> SimComponent -> SimObject

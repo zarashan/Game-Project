@@ -43,15 +43,14 @@ function buildground(%myScene)
    
     %composite_Ground = new CompositeSprite();
       $groundSize = "100 1";
-    %composite_Ground.setSceneLayer(15);
-    %composite_Ground.setSceneGroup(14);
+    %composite_Ground.setSceneLayer(14);
+    %composite_Ground.setSceneGroup(15);
    %composite_Ground.addSprite();
     %composite_Ground.setSpriteLocalPosition(0, -130);
     %composite_Ground.setSpriteSize(100, 10);
     %composite_Ground.setSpriteImage( "StartingArea:wall");
     
     %composite_Ground.createPolygonBoxCollisionShape($groundSize);
-    %composite_Ground.setCollisionShapeIsSensor(0, true);
     %composite_Ground.setCollisionGroups( "15" );
     
     %myScene.add (%composite_Ground);
