@@ -65,7 +65,8 @@ function StartingArea::spawnPlayer(%this)
 	
 	%controls = ShooterControlsBehavior.createInstance();
 	%hero.addBehavior(%controls);
-
+	
+   %hero.setBodyType("dynamic");  
     %hero.createPolygonBoxCollisionShape(%size);
     %hero.setCollisionGroups( "15" );
 

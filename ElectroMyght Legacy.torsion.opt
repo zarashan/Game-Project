@@ -6,13 +6,13 @@
 <Breakpoints/>
 <Bookmarks/>
 <OpenFiles>
-<File ScrollX="0" ScrollY="52">modules\StartingArea\1\main.cs</File>
-<File ScrollX="0" ScrollY="31">modules\StartingArea\1\scripts\crashedShip.cs</File>
+<File ScrollX="0" ScrollY="0" Active="true">modules\StartingArea\1\main.cs</File>
+<File ScrollX="0" ScrollY="21">modules\StartingArea\1\scripts\crashedShip.cs</File>
 <File ScrollX="0" ScrollY="0">modules\MainMenu\1\main.cs</File>
 <File ScrollX="0" ScrollY="16">modules\StartingArea\1\scripts\shooterControls.cs</File>
 <File ScrollX="0" ScrollY="0">modules\StartingArea\1\scripts\Scene.cs</File>
 <File ScrollX="0" ScrollY="0">modules\StartingArea\1\scripts\SceneWindow.cs</File>
-<File ScrollX="0" ScrollY="0" Active="true">modules\StartingArea\1\scripts\createScript.cs</File>
+<File ScrollX="0" ScrollY="0">modules\StartingArea\1\scripts\createScript.cs</File>
 <File ScrollX="0" ScrollY="1">modules\StartingArea\1\scripts\ControlBehavior.cs</File>
 </OpenFiles>
 </TorsionProjectOptions>

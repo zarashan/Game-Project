@@ -7,7 +7,7 @@ function createSprite()
          class = "createScript";
         position = "%CameraX %CameraY";
         size = getSpriteSize();
-        SceneLayer = "14";
+        SceneLayer = "15";
         SceneGroup = "15";
         CollisionCallback = true;
     };  

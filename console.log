@@ -1,51 +1,27 @@
-//-------------------------- 6/24/2014 -- 08:43:03 -----
-Console trace is off.
---------------------------------------------------------------------------------
-Video Initialization:
---------------------------------------------------------------------------------
-Video initialization:
-   Accelerated OpenGL display device detected.
+//-------------------------- 6/26/2014 -- 02:02:05 -----
+E:/The Game/Root/modules/StartingArea/1/main.cs Line: 21 - parse error
+>>> Advanced script error report.  Line 21.
+>>> Some error context, with ## on sides of error halt:
+^//exec("./scripts/PlatformerCameraBehavior.cs");
+^exec("./scripts/shooterControls.cs");
+^createSceneWindow();
+^createScene();
+^
+^mySceneWindow.setScene(myScene);
+^%hero = %this.spawnPlayer();
+^^
+^
+   mySceneWindow.mount(%hero, "0 15", %force, true);
+^
+
+     Set the gravity.
+## ##   myScene.setGravity(0, 30);
+^
+    /*StartingArea.topLeft = 35;
+    StartingArea.topRight = -110;
+    StartingArea.bottomLeft = -50;
+    StartingArea.bottomRight = 140;*/
+    // Limit the camera to the four sections of the desert
+  // mySceneWindow.setViewLimitOn( StartingArea.topLeft, StartingArea.topRight, StartingArea.bottomLeft, StartingArea.bottomRight );
+>>> Error report complete.
 
-Activating the OpenGL display device...
-Activating the OpenGL display device...
-Setting screen mode to 640x480x32 (w)...
-Creating a new window...
-Acquiring a new device context...
-Pixel format set:
-  32 color bits, 24 depth bits, 8 stencil bits
-Creating a new rendering context...
-Making the new rendering context current...
-OpenGL driver information:
-  Vendor: ATI Technologies Inc.
-  Renderer: AMD Radeon HD 7640G + 7600M Dual Graphics
-  Version: 4.3.12614 Compatibility Profile Context 13.250.18.0
-OpenGL Init: Enabled Extensions
-  ARB_multitexture (Max Texture Units: 8)
-  EXT_blend_color
-  EXT_blend_minmax
-  EXT_compiled_vertex_array
-  EXT_texture_env_combine
-  EXT_packed_pixels
-  EXT_fog_coord
-  ARB_texture_compression
-  EXT_texture_compression_s3tc
-  (ARB|EXT)_texture_env_add
-  EXT_texture_filter_anisotropic (Max anisotropy: 16)
-  WGL_EXT_swap_control
-OpenGL Init: Disabled Extensions
-  EXT_paletted_texture
-  NV_vertex_array_range
-  3DFX_texture_compression_FXT1
-
-Max Texture Size reported as: 16384
-OpenAL Driver Init
-OpenAL Driver Init Success
-@@@ Console::create function called
-it Worked
-@@@ Console::destroy function called
-modules/StartingArea/1/scripts/shooterControls.cs (61): Unknown command disableUpdateCallback.
-  Object (1173) createScript -> Sprite -> SpriteBase -> SceneObject -> BehaviorComponent -> DynamicConsoleMethodComponent -> SimComponent -> SimObject
-Shutting down the OpenGL display device...
-Making the GL rendering context not current...
-Deleting the GL rendering context...
-Releasing the device context...
