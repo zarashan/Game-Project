@@ -11,6 +11,7 @@ function createSprite()
         SceneGroup = "15";
         CollisionCallback = true;
     };  
+    %hero.FixedAngle = true;
     return %hero;
 }
 
@@ -26,5 +27,5 @@ function createScript::setXPos(%this)
 
 function createScript::onCollision(%this, %object, %collisionDetails)
  {
-    echo("it Worked");
+    echo(%object.getBodyType);
  }

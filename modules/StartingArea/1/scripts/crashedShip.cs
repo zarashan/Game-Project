@@ -41,17 +41,41 @@ function buildArea(%myScene)
 function buildground(%myScene)
 {
    
-      $groundSize = "150 10";
-    %Ground = new Sprite()    
-      {
+   $groundSize = "150 10";
+   %Ground = new Sprite();
+   %Ground.setBodyType( static );
+   %Ground.Position = "30 -150";
+   %Ground.Size = $groundSize;
+   %Ground.SceneLayer = 15;
+   %Ground.Image = "StartingArea:wall";
+   
+   
+   
+   
+   
+   /*{
         image = "StartingArea:wall";
-        position = 0 -150;
+        position = 100 -150;
         size = $groundSize;
         SceneLayer = "15";
         SceneGroup = "15";
-    };      
-   %Ground.setBodyType( static );
-    
+   };
+   %Ground.setImage( StartingArea:wall );
+   %Ground.setPosition(100, -150);
+   %Ground.setSize(150, 10);
+   %Ground.setSceneLayer(15);
+   %Ground.setSceneGroup(15);
+   %Ground.setBodyType( Static );
+      {
+        image = "StartingArea:wall";
+        position = 100 -150;
+        size = $groundSize;
+        SceneLayer = "15";
+        SceneGroup = "15";
+        BodyType = static;
+    };      */
+    //%Ground.GravityScale = 0;
+    //%Ground.setLinearVelocityY = 0;
     %Ground.createPolygonBoxCollisionShape($groundSize);
     %Ground.setCollisionGroups( "15" );
     

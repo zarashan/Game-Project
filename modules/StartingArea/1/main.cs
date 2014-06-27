@@ -19,7 +19,7 @@ function StartingArea::create( %this )
 	
 
     // Set the gravity.
-   // myScene.setGravity(0, 30);
+    myScene.setGravity(0, 9.8);
 	
     /*StartingArea.topLeft = 35;
     StartingArea.topRight = -110;
